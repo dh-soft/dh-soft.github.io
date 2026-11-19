@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dh-soft.github.io/sitemap.xml
