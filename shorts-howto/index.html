@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to turn a long talk into 5 shorts with translated subtitles</title>
+<meta name="description" content="Turn one long talk, podcast or lecture into 5 vertical 9:16 shorts with translated + original subtitles, step by step, with real output from a public-domain sample.">
+<link rel="canonical" href="https://dh-soft.github.io/shorts-howto/">
+<style>
+body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1d1d1f;background:#fff}
+a{color:#5b2bd6} h1{line-height:1.25} table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid #ddd;padding:6px 8px;text-align:left;vertical-align:top} th{background:#f4f2fb}
+.note{background:#f7f7f9;border-left:4px solid #5b2bd6;padding:10px 14px} .orig{color:#666;font-size:13px}
+footer{margin-top:40px;color:#666;font-size:14px} nav a{margin-right:14px}
+@media (prefers-color-scheme: dark){body{background:#121214;color:#e8e8ea} th{background:#24203a} td,th{border-color:#333} .note{background:#1c1c20} .orig,footer{color:#a0a0a8} a{color:#b49bff}}
+</style></head><body>
+<nav><a href="https://dh-soft.github.io/">DH Soft</a><a href="https://dh-soft.github.io/13f-q3-2026/">13F Q3 2026</a><a href="https://dh-soft.github.io/shorts-howto/">How-to</a></nav>
+<h1>How to turn a long talk into 5 shorts with translated subtitles</h1>
+<p>A 30-minute talk usually holds a handful of moments that work on their own: a clear claim, a list, a short story. Finding them, cutting them to 9:16, timing subtitles and translating them is the slow part. This walkthrough shows the whole process with one public-domain recording, using Shorts Translate, an agent that runs on Capafy.</p>
+<h2>What you need</h2>
+<ul>
+<li>One video of up to 30 minutes with clear speech: a talk, podcast, lecture or interview (MP4, MOV, M4V, MKV, WEBM or AVI, up to 2 GB). Videos of 2.5 minutes or more give 5 clips.</li>
+<li>The language you want added: English, Chinese (Simplified), Spanish, Korean or Japanese.</li>
+<li>Optional: subtitle position (top, middle, bottom) and size (small, medium, large).</li>
+</ul>
+<h2>Step 1 — Send the video</h2>
+<p>Upload the file in the chat, or send a Dropbox or Google Drive share link to your own file. YouTube and other site links are not accepted, so the tool only works with videos you have.</p>
+<p>For this example we used a reading of <em>The Art of War</em> (Lionel Giles translation) from LibriVox, which is in the public domain, over a still studio image.</p>
+<h2>Step 2 — Pick the subtitle language</h2>
+<p>We asked for Spanish at the bottom, medium size, and later Korean at the top, large.</p>
+<h2>Step 3 — Get 5 clips and their post texts</h2>
+<p>Speech recognition runs inside the agent's sandbox. Claude then reads the transcript, picks five self-contained 30-60 second moments, translates the subtitle lines and checks each translated line against its original. For every clip you also get why it was picked, 3 title ideas, an opening hook and hashtags, written from that clip's own transcript.</p>
+<p>A 30-minute video takes about 4-6 minutes. Here is part of the clip list from our sample (real output):</p>
+<pre><code>## Clip 1 · 0:25-1:05 (40 s)
+- Why this moment: Presenta de forma directa el tema central de Sun Tzu: el arte de la guerra es cuestión de vida o muerte y no puede descuidarse.
+- Title ideas: El arte de la guerra: vida o muerte / Sun Tzu y la importancia de la guerra / La lección de Sun Tzu sobre el peligro
+- Opening hook: Sun Tzu decía que la guerra es cuestión de vida o muerte, y no puedes ignorarla.
+- Hashtags: #SunTzu #ElArteDeLaGuerra #Filosofia #Estrategia</code></pre>
+<h2>What the clips look like</h2>
+<p>The translation is on top in yellow and the original line is below it, so viewers who speak either language can follow.</p>
+<p><img src="assets/still-1-es-bottom.png" alt="Spanish subtitles at the bottom" style="max-width:100%;height:auto"></p>
+<p><img src="assets/still-2-ko-top-large.png" alt="Korean subtitles at the top, large" style="max-width:100%;height:auto"></p>
+<p><img src="assets/clip-es.gif" alt="Animated sample (Spanish)" style="max-width:100%;height:auto"></p>
+<h2>Step 4 — Re-render without starting over</h2>
+<p>Want the subtitles at the top, or bigger? Ask for it — the same clips are re-rendered. Another language works too: the transcript is reused and the agent picks moments and writes titles in that language. Neither counts as a new video, and a re-render takes about 1-2 minutes.</p>
+<h2>Tips</h2>
+<ul>
+<li>Clean audio gives better subtitles. Speech recognition runs on CPU with a compact model, so names and technical words can be misheard — check before posting.</li>
+<li>Choose videos you own or have the right to use.</li>
+<li>Post the translated version to reach viewers in another language, and keep the original line so native speakers can follow too.</li>
+</ul>
+<h2>Limits</h2>
+<ul>
+<li>Up to 30 minutes and 2 GB per video.</li>
+<li>Fair use on every plan: up to 3 new videos per day and 10 per week (about 40 a month).</li>
+<li>Plans: US$8.99/week, US$17.99/month, US$69.99/year, with a 1-day free trial.</li>
+</ul>
+<p>Try it: <a href="https://capafy.ai/agent/shorts-translate-5-clips-translated-subtitles/2008649389">Shorts Translate on Capafy</a></p>
+<footer>DH Soft · Agents on <a href="https://capafy.ai/">Capafy</a> · Free skills on <a href="https://github.com/dh-soft">GitHub</a></footer>
+</body></html>
